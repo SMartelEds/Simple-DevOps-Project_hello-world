@@ -18,6 +18,7 @@ tomcatup
 
 # Configure Tomcat
 find /opt/apache-tomcat-9.0.69/webapps/ -name context.xml
+find /opt/apache-tomcat-9.0.69/conf/ -name tomcat-users.xml
 
 ################
 ln -s /opt/apache-tomcat-9.0.69/bin/startup.sh /usr/local/bin/tomcatup
